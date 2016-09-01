@@ -18,9 +18,12 @@ namespace TestRefreshTableView
 			tmp.Y = 20;
 			tmp.Height = tmp.Height - 20;
 
-			dataList = new List<string> () { "January", "February", "March" };
+			dataList = new List<string> () { "January", "February", "March", "April" };
+
 			DragRefreshTableSource source = new DragRefreshTableSource (dataList,Refresh,MoreData);
-			AlancDragRefreshTableView tableView = new AlancDragRefreshTableView(source);
+			source.ActiveDistance = 60;//Set an active distance
+
+			ALDragRefreshTableView tableView = new ALDragRefreshTableView(source);
 			tableView.Frame = tmp;
 			tableView.RowHeight = 50;
 			this.Add(tableView);
@@ -38,7 +41,7 @@ namespace TestRefreshTableView
 		{
 			System.Threading.Thread.Sleep (3000);
 			UIApplication.SharedApplication.InvokeOnMainThread (delegate {
-				dataList.AddRange (new List<string> () { "BAIDU", "GOOGLE", "FACEBOOK", "YAHOO" });
+				dataList.AddRange (new List<string> () { "Apple", "Google", "FaceBook", "MicroSoft" });
 			});
 		}
 	}

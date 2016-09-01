@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TestRefreshTableView
 {
-	public class DragRefreshTableSource : AlancDragRefreshTableSource
+	public class DragRefreshTableSource : ALDragRefreshTableSource
 	{
 		public DragRefreshTableSource (List<string> dataList, Action refreshAction, Action addMoreAction) : base(dataList,refreshAction,addMoreAction)
 		{

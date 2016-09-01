@@ -1,0 +1,37 @@
+# Version: 9.6.1.9 (cycle6-xi-c6sr3: 5f11db8)
+# [first argument, ignore] # /Users/liuwennan/MyGitProject/DragRefreshTableView/TestRefreshTableView/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/9.6.1.9/bin/mtouch \
+	--cache \
+	/Users/liuwennan/MyGitProject/DragRefreshTableView/TestRefreshTableView/obj/iPhoneSimulator/Debug/mtouch-cache \
+	--sim \
+	/Users/liuwennan/MyGitProject/DragRefreshTableView/TestRefreshTableView/bin/iPhoneSimulator/Debug/TestRefreshTableView.app \
+	--executable \
+	TestRefreshTableView \
+	--fastdev \
+	--debug \
+	--profiling \
+	--nolink \
+	--sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--sdk \
+	9.3 \
+	--targetver \
+	9.1 \
+	--new-refcount \
+	--abi=i386 \
+	--symbollist \
+	/Users/liuwennan/MyGitProject/DragRefreshTableView/TestRefreshTableView/obj/iPhoneSimulator/Debug/mtouch-symbols.list \
+	--dsym=no \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	--target-framework \
+	"Xamarin.iOS,v1.0" \
+	/Users/liuwennan/MyGitProject/DragRefreshTableView/TestRefreshTableView/bin/iPhoneSimulator/Debug//TestRefreshTableView.exe \
