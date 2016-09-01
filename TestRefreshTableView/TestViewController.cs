@@ -18,8 +18,12 @@ namespace TestRefreshTableView
 			tmp.Y = 20;
 			tmp.Height = tmp.Height - 20;
 
+			//Origin data in tableview
 			dataList = new List<string> () { "January", "February", "March", "April" };
 
+			//datalist : tableview's datalist
+			//Refresh : It's an action which will fire when drag down tableview event actived
+			//Refresh : It's an action which will fire when pull up tableview event actived
 			DragRefreshTableSource source = new DragRefreshTableSource (dataList,Refresh,MoreData);
 			source.ActiveDistance = 60;//Set an active distance
 
